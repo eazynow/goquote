@@ -5,6 +5,10 @@
 
 Go code (golang) commmand line utility for calculating monthly compound interest rates in go based on multiple lenders.
 
+## Requirements
+
+goquote should work with go versions 1.2 or greater.
+
 ## Installation
 
 To install goquote, use `go get`:
