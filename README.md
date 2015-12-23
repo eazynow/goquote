@@ -20,6 +20,14 @@ go get github.com/eazynow/goquote
 
 To use the utility, run goquote from the command line passing in the csv file containing the lender pool and the amount to borrow.
 
+```
+$ ./goquote market.csv 1000
+Requested amount: £1000
+Rate: 7.0%
+Monthly repayment: £30.88
+Total repayment: £1111.64
+```
+
 ## Tests
 
 To run the tests, use `go test`:
